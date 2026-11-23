@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Triodion&display=swap&subset=cyrillic');
+
 :root {
   --bg: #14120f;
   --paper: #1e1b16;
@@ -115,6 +117,46 @@ a { color: var(--gold); }
   color: var(--muted);
   font-size: 14px;
   font-style: italic;
+}
+
+.quote-day {
+  margin: 36px 0;
+  padding: 28px 24px;
+  background: linear-gradient(180deg, rgba(201,164,92,0.08), rgba(30,27,22,0));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.quote-day .quote-label {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.quote-day blockquote {
+  margin: 0;
+  font-family: 'Triodion', 'Palatino Linotype', Georgia, serif;
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.35;
+  color: var(--gold);
+  text-shadow: 0 0 18px rgba(201,164,92,0.12);
+}
+
+.quote-day .quote-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.quote-day .quote-note a {
+  color: var(--muted);
+}
+
+.quote-day .quote-note a:hover {
+  color: var(--gold);
 }
 
 footer {
