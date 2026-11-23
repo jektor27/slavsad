@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Коловрат</title>
+  <defs>
+    <path id="luch" d="M50 38 C 54 27 63 21 74 22 C 68 26 62 33 60 43" fill="none" stroke="#c9a45c" stroke-width="5" stroke-linecap="round"/>
+  </defs>
+  <circle cx="50" cy="50" r="8" fill="#c9a45c"/>
+  <use href="#luch"/>
+  <use href="#luch" transform="rotate(45 50 50)"/>
+  <use href="#luch" transform="rotate(90 50 50)"/>
+  <use href="#luch" transform="rotate(135 50 50)"/>
+  <use href="#luch" transform="rotate(180 50 50)"/>
+  <use href="#luch" transform="rotate(225 50 50)"/>
+  <use href="#luch" transform="rotate(270 50 50)"/>
+  <use href="#luch" transform="rotate(315 50 50)"/>
+</svg>

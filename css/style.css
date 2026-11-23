@@ -36,6 +36,14 @@ header {
   color: var(--gold);
 }
 
+.kolovrat {
+  width: 32px;
+  height: 32px;
+  vertical-align: -5px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 5px rgba(201, 164, 92, 0.35));
+}
+
 .site-sub {
   margin: 8px 0 0;
   color: var(--muted);
