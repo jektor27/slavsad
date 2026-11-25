@@ -38,6 +38,13 @@ header {
   color: var(--gold);
 }
 
+.site-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-title a:hover { color: var(--gold); }
+
 .kolovrat {
   width: 32px;
   height: 32px;
