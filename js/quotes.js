@@ -35,10 +35,7 @@
 
   var selected = quotes.find(function (q) { return q.month === month && q.day === day; });
   if (!selected) {
-    var start = new Date(now.getFullYear(), 0, 0);
-    var diff = now - start;
-    var dayOfYear = Math.floor(diff / 86400000);
-    selected = quotes[dayOfYear % quotes.length];
+    selected = quotes[quotes.length - 1];
   }
 
   var label = root.querySelector('[data-quote-label]');
