@@ -43,7 +43,9 @@
 
   var selected = quotes.find(function (q) { return q.month === month && q.day === day; });
   if (!selected) {
-    selected = quotes[quotes.length - 1];
+    var start = new Date(now.getFullYear(), 0, 0);
+    var dayOfYear = Math.floor((now - start) / 86400000);
+    selected = quotes[dayOfYear % quotes.length];
   }
 
   var label = root.querySelector('[data-quote-label]');
